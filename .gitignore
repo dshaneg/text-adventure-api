@@ -1,7 +1,20 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# Webpack directories
+.webpack
+
 # Logs
 logs
 *.log
 npm-debug.log*
+
+# generated javascript files
+lib
 
 # Runtime data
 pids
@@ -35,3 +48,8 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# npm package files
+*.tgz
+
+target
