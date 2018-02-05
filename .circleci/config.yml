@@ -6,7 +6,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: dshaneg/nodejs:8-alpine
+      - image: dshaneg/nodejs:8-alpine-sls-1.26.0
 
     steps:
       - checkout
@@ -39,7 +39,7 @@ jobs:
 
   deploy:
     docker:
-      - image: dshaneg/nodejs:8-alpine
+      - image: dshaneg/nodejs:8-alpine-sls-1.26.0
 
     steps:
       - attach_workspace:
