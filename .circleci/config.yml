@@ -33,6 +33,7 @@ jobs:
             - Makefile
             - bin
             - .serverless
+            - serverless.yml
 
       - store_artifacts:
           path: target/dist
