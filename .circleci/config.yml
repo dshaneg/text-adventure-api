@@ -34,6 +34,7 @@ jobs:
             - bin
             - .serverless
             - serverless.yml
+            - node_modules
 
       - store_artifacts:
           path: target/dist
