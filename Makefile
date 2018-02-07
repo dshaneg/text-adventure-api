@@ -19,6 +19,7 @@ deps:
 
 clean:
 	rm -rf .serverless
+	rm -rf .webpack
 	rm -rf coverage
 	rm -rf .nyc_output
 	rm -rf yarn*.log
