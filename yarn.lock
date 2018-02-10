@@ -2,6 +2,16 @@
 # yarn lockfile v1
 
 
+"@dshaneg/text-adventure-core@^0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@dshaneg/text-adventure-core/-/text-adventure-core-0.1.7.tgz#71bbc0f5dadc8c06fdb4b496b6229f28671a3cbb"
+  dependencies:
+    "@types/uuid" "^3.4.3"
+    number-to-words "^1.2.3"
+    pluralize "^3.0.0"
+    postal "^2.0.5"
+    uuid "^3.2.1"
+
 "@types/aws-lambda@0.0.22":
   version "0.0.22"
   resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-0.0.22.tgz#48ab7d4f816d1c1c72ed7286c4b73f21f0497219"
@@ -13,6 +23,10 @@
 "@types/mocha@^2.2.48":
   version "2.2.48"
   resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-2.2.48.tgz#3523b126a0b049482e1c3c11877460f76622ffab"
+
+"@types/node@*":
+  version "9.4.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-9.4.4.tgz#4cad4305d1ec84eab2dc2bda97dfb6a5f652cccb"
 
 "@types/node@^8.0.57":
   version "8.5.9"
@@ -29,6 +43,12 @@
 "@types/strip-json-comments@0.0.30":
   version "0.0.30"
   resolved "https://registry.yarnpkg.com/@types/strip-json-comments/-/strip-json-comments-0.0.30.tgz#9aa30c04db212a9a0649d6ae6fd50accc40748a1"
+
+"@types/uuid@^3.4.3":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-3.4.3.tgz#121ace265f5569ce40f4f6d0ff78a338c732a754"
+  dependencies:
+    "@types/node" "*"
 
 abbrev@1:
   version "1.1.1"
@@ -2044,6 +2064,10 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
+number-to-words@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/number-to-words/-/number-to-words-1.2.3.tgz#4b713ab0c24015911187a0a03b59103569d7f49b"
+
 nyc@^11.4.1:
   version "11.4.1"
   resolved "https://registry.yarnpkg.com/nyc/-/nyc-11.4.1.tgz#13fdf7e7ef22d027c61d174758f6978a68f4f5e5"
@@ -2268,6 +2292,10 @@ pkg-dir@^1.0.0:
   resolved "https://registry.yarnpkg.com/pkg-dir/-/pkg-dir-1.0.0.tgz#7a4b508a8d5bb2d629d447056ff4e9c9314cf3d4"
   dependencies:
     find-up "^1.0.0"
+
+pluralize@^3.0.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-3.1.0.tgz#84213d0a12356069daa84060c559242633161368"
 
 postal@^2.0.5:
   version "2.0.5"
@@ -2952,9 +2980,9 @@ type-detect@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/type-detect/-/type-detect-1.0.0.tgz#762217cc06db258ec48908a1298e8b95121e8ea2"
 
-typescript@2.6.2:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.6.2.tgz#3c5b6fd7f6de0914269027f03c0946758f7673a4"
+typescript@^2.6.2:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.7.1.tgz#bb3682c2c791ac90e7c6210b26478a8da085c359"
 
 uglify-js@^2.6, uglify-js@^2.8.29:
   version "2.8.29"
@@ -3017,7 +3045,7 @@ uuid@3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.1.0.tgz#3dd3d3e790abc24d7b0d3a034ffababe28ebbc04"
 
-uuid@^3.0.0:
+uuid@^3.0.0, uuid@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.2.1.tgz#12c528bb9d58d0b9265d9a2f6f0fe8be17ff1f14"
 
